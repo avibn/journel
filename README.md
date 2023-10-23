@@ -2,21 +2,21 @@
 
 ## Table of Contents
 
-- [Journel](#journel)
-  - [Table of Contents](#table-of-contents)
-  - [About ](#about-)
-  - [Getting Started ](#getting-started-)
-    - [Prerequisites](#prerequisites)
-    - [Installing](#installing)
-  - [Acknowledgements ](#acknowledgements-)
+- [About](#about)
+- [Getting Started](#getting_started)
+- [Acknowledgements](#acknowledgements)
 
-## About <a name = "about"></a>
+## About<a name = "about"></a>
 
 A journal app made in Next.js 13 and Express.js. The backend uses MongoDB (with mongoose) and express-session. The frontend uses react with tailwindcss, shadcn and react-quill.
+
+Home page:
 ![Screenshot](./images/screenshot1.png)
+
+Journal page:
 ![Screenshot](./images/screenshot2.png)
 
-## Getting Started <a name = "getting_started"></a>
+## Getting Started<a name = "getting_started"></a>
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
@@ -40,11 +40,13 @@ SESSION_SECRET=[random secret]
 ```
 
 To run the app in development mode, you will need to run the following command:
-`npm start` in `server/`
-`npm run dev` in `client/`
+- `npm start` in `server/`
+- `npm run dev` in `client/`
 
 
-## Acknowledgements <a name = "acknowledgements"></a>
+
+## Acknowledgements<a name = "acknowledgements"></a>
 
 [Design Inspiration](https://dribbble.com/shots/14969350-Journalling-App-Concept)
+
 Special thanks to to [Coding in Flow](https://www.youtube.com/@codinginflow/) for their helpful tutorials, which were instrumental in the development of this project.
